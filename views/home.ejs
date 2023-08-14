@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todooyee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-content">
+                <form action="/home" method="get">
+                    <button>
+                        <a><i class="fa-solid fa-house"></i> Home</a>
+                    </button>
+                </form>
+            </div>
+            <div class="nav-content">
+                <form action="/work" method="get">
+                    <button>
+                        <a><i class="fa-solid fa-laptop"></i> Work</a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="hero-sec">
+            <div class="box1">
+                <p class="para">Add Your Personal Work</p>
+                <ul id="addTask">
+                </ul>
+            </div>
+            <div class="box2">
+                <input id="task" type="text" placeholder="Enter Your Task">
+                <button id="button">+</button>
+            </div>
+            <div class="errorMsg">
+            </div>
+        </div>
+    </div>
+    <script src="/function/script.js"></script>
+</body>
+
+</html>

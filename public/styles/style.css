@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    border: border-box;
+}
+
+body {
+    background-color: #F3F0F7;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    background-color: #F7F24A;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #646464;
+    font-size: 1.1rem;
+}
+
+.error {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 8px;
+    left: 10%;
+    color: #ff3333;
+}
+
+.container {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-sec {
+    height: fit-content;
+    margin-top: auto;
+    border-radius: 2px;
+    width: 400px;
+    display: flex;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.box1 {
+    width: 400px;
+}
+
+.para {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #646464;
+}
+
+#addTask {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#addTask li {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 10px;
+    list-style: none;
+    height: fit-content;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #F3F0F7;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+    color: #646464;
+    font-size: 1.2rem;
+}
+
+#addTask button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F7F24A;
+    color: #646464;
+    text-align: center;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.box2 {
+    padding-top: 10px;
+}
+
+#task {
+    height: 40px;
+    width: 250px;
+    width: 2;
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.2rem;
+    color: #646464;
+    outline: none !important;
+}
+
+#button {
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background-color: #F7F24A;
+    color: #646464;
+    font-size: 2.3rem;
+    text-align: center;
+    box-shadow: rgba(246, 223, 76, 0.02) 0px 1px 3px 0px, rgba(179, 185, 13, 0.15) 0px 0px 0px 1px;
+}
