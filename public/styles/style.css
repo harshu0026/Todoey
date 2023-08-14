@@ -5,23 +5,24 @@
 }
 
 body {
-    background-color: #F3F0F7;
+    background-color: #97bef8;
 }
 
 .navbar {
     display: flex;
     height: 60px;
-    background-color: #F7F24A;
+    background-color: #fefdfa;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 button{
     cursor: pointer;
     background-color: transparent;
     border: none;
-    color: #646464;
+    color: #97bef8;
     font-size: 1.1rem;
 }
 
@@ -48,7 +49,7 @@ button{
 .hero-sec {
     height: fit-content;
     margin-top: auto;
-    border-radius: 2px;
+    border-radius: 10px;
     width: 400px;
     display: flex;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
@@ -56,7 +57,7 @@ button{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #fefdfa;
 }
 
 .box1 {
@@ -87,10 +88,10 @@ button{
     height: fit-content;
     width: 80%;
     border-radius: 10px;
-    background-color: #F3F0F7;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+    background-color: #97bef8;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 10px 10px;
-    color: #646464;
+    color: #fefdfa;
     font-size: 1.2rem;
 }
 
@@ -101,8 +102,8 @@ button{
     border: none;
     font-size: 16px;
     font-weight: 600;
-    background-color: #F7F24A;
-    color: #646464;
+    background-color: #fefdfa;
+    color: #97bef8;
     text-align: center;
     box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -113,7 +114,7 @@ button{
 
 #task {
     height: 40px;
-    width: 250px;
+    width: 290px;
     background-color: #ffffff;
     border: none;
     font-size: 1.2rem;
@@ -128,11 +129,11 @@ button{
     border: none;
     border-radius: 50%;
     outline: none;
-    background-color: #F7F24A;
-    color: #646464;
+    background-color: #97bef8;
+    color: #fefdfa;
     font-size: 2.3rem;
     text-align: center;
-    box-shadow: rgba(246, 223, 76, 0.02) 0px 1px 3px 0px, rgba(179, 185, 13, 0.15) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 @media only screen and (max-width: 470px) {
