@@ -30,6 +30,7 @@ button{
     float: left;
     width: 100%;
     padding: 8px;
+    font-size: 1rem;
     left: 10%;
     color: #ff3333;
 }
@@ -113,7 +114,6 @@ button{
 #task {
     height: 40px;
     width: 250px;
-    width: 2;
     background-color: #ffffff;
     border: none;
     font-size: 1.2rem;
@@ -133,4 +133,41 @@ button{
     font-size: 2.3rem;
     text-align: center;
     box-shadow: rgba(246, 223, 76, 0.02) 0px 1px 3px 0px, rgba(179, 185, 13, 0.15) 0px 0px 0px 1px;
+}
+
+@media only screen and (max-width: 470px) {
+
+    .hero-sec {
+        width: 250px;
+    }
+    
+    .box1 {
+        width: 250px;
+    }
+    
+    .para {
+        font-size: 1.1rem;
+    }
+    
+    
+    #addTask li {
+        width: 60%;
+    }
+    
+    #task {
+        width: 180px;
+        font-size: 1.1rem;
+    }
+    
+    #button {
+        height: 45px;
+        width: 45px;
+        font-size: 2.1rem;
+        padding-top: 0px;
+    }
+
+    .error{
+        font-size: 0.95rem;
+        left: 4%;
+    }
 }
